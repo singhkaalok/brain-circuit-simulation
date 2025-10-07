@@ -16,16 +16,16 @@ Through this course, I’m exploring how Python can be used to simulate real-wor
 This model combines the biological plausibility of the Hodgkin–Huxley equations with the computational simplicity of integrate-and-fire neurons.
 
 **Core Equations:**
-\[
+[
 v' = 0.04v^2 + 5v + 140 - u + I
-\]
-\[
+]
+[
 u' = a(bv - u)
-\]
+]
 with reset conditions:
-\[
-\text{if } v \ge 30: \quad v \leftarrow c,\; u \leftarrow u + d
-\]
+[
+if  v >= 30:  v = c; u = u + d
+]
 
 ---
 
